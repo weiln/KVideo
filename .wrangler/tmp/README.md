@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "kvideo" generated at 2026-03-02T14:33:35.473Z.

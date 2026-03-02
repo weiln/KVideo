@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/auth": {},
+    "/api/auth/accounts": {},
+    "/api/config": {},
+    "/api/danmaku": {},
+    "/api/detail": {},
+    "/api/douban/image": {},
+    "/api/douban/recommend": {},
+    "/api/douban/tags": {},
+    "/api/iptv": {},
+    "/api/iptv/stream": {},
+    "/api/ping": {},
+    "/api/premium/category": {},
+    "/api/premium/types": {},
+    "/api/proxy": {},
+    "/api/search-parallel": {},
+    "/api/user/sync": {}
+  }
+}

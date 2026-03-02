@@ -8,8 +8,8 @@
     "start": "next start --port ${PORT:-3000}",
     "lint": "eslint",
     "worker:build": "opennextjs-cloudflare build",
-    "worker:dev": "opennextjs-cloudflare build && wrangler dev",
-    "worker:deploy": "opennextjs-cloudflare build && wrangler deploy"
+    "worker:dev": "opennextjs-cloudflare dev",
+    "worker:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -37,6 +37,6 @@
     "postcss-preset-env": "^11.1.3",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "wrangler": "^3.114.17"
+    "wrangler": "^4.69.0"
   }
 }

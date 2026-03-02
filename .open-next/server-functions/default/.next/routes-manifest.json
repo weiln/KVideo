@@ -1,0 +1,188 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/auth",
+      "regex": "^/api/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth(?:/)?$"
+    },
+    {
+      "page": "/api/auth/accounts",
+      "regex": "^/api/auth/accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/accounts(?:/)?$"
+    },
+    {
+      "page": "/api/config",
+      "regex": "^/api/config(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/config(?:/)?$"
+    },
+    {
+      "page": "/api/danmaku",
+      "regex": "^/api/danmaku(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/danmaku(?:/)?$"
+    },
+    {
+      "page": "/api/detail",
+      "regex": "^/api/detail(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/detail(?:/)?$"
+    },
+    {
+      "page": "/api/douban/image",
+      "regex": "^/api/douban/image(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/douban/image(?:/)?$"
+    },
+    {
+      "page": "/api/douban/recommend",
+      "regex": "^/api/douban/recommend(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/douban/recommend(?:/)?$"
+    },
+    {
+      "page": "/api/douban/tags",
+      "regex": "^/api/douban/tags(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/douban/tags(?:/)?$"
+    },
+    {
+      "page": "/api/iptv",
+      "regex": "^/api/iptv(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/iptv(?:/)?$"
+    },
+    {
+      "page": "/api/iptv/stream",
+      "regex": "^/api/iptv/stream(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/iptv/stream(?:/)?$"
+    },
+    {
+      "page": "/api/ping",
+      "regex": "^/api/ping(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/ping(?:/)?$"
+    },
+    {
+      "page": "/api/premium/category",
+      "regex": "^/api/premium/category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/premium/category(?:/)?$"
+    },
+    {
+      "page": "/api/premium/types",
+      "regex": "^/api/premium/types(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/premium/types(?:/)?$"
+    },
+    {
+      "page": "/api/proxy",
+      "regex": "^/api/proxy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/proxy(?:/)?$"
+    },
+    {
+      "page": "/api/search-parallel",
+      "regex": "^/api/search\\-parallel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/search\\-parallel(?:/)?$"
+    },
+    {
+      "page": "/api/user/sync",
+      "regex": "^/api/user/sync(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/sync(?:/)?$"
+    },
+    {
+      "page": "/iptv",
+      "regex": "^/iptv(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/iptv(?:/)?$"
+    },
+    {
+      "page": "/player",
+      "regex": "^/player(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/player(?:/)?$"
+    },
+    {
+      "page": "/premium",
+      "regex": "^/premium(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/premium(?:/)?$"
+    },
+    {
+      "page": "/premium/settings",
+      "regex": "^/premium/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/premium/settings(?:/)?$"
+    },
+    {
+      "page": "/settings",
+      "regex": "^/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
