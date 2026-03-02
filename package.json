@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start --port ${PORT:-3000}",
     "lint": "eslint",
-    "pages:build": "npx @cloudflare/next-on-pages@1"
+    "worker:build": "opennextjs-cloudflare build",
+    "worker:dev": "opennextjs-cloudflare build && wrangler dev",
+    "worker:deploy": "opennextjs-cloudflare build && wrangler deploy"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -24,7 +26,7 @@
     "zustand": "^5.0.11"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
+    "@opennextjs/cloudflare": "^1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^25",
     "@types/react": "^19",
